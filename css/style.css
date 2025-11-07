@@ -1,55 +1,15 @@
-/* --- Base Dark Mode Colors --- */
-body {
-    /* Dark background for the entire page */
-    background-color: #1a1a1a; 
-    /* Light text color for all default content */
-    color: #f5f5f5; 
+.fa {
+  color: #8b8b8b;!important;
 }
 
-/* Ensure the main content block is also dark (targets your max-width container) */
-.container-fluid {
-    background-color: #242424 !important; 
+.fa:hover {
+  color: #5c5b5b;!important;
 }
 
-/* Make horizontal rules visible against the dark background */
-hr {
-    border-top: 1px solid #444; 
-}
-
-/* Ensure headings are bright and visible */
-h2, h3, h4 {
-    color: #e0e0e0;
-}
-
-/* --- Links and Icons (Updated for Dark Mode Contrast) --- */
-
-/* Standard Links */
-a {
-    color: #90caf9; /* Light, noticeable blue for links */
-    text-decoration: none;
-}
-
-a:hover {
-    color: #bbdefb; /* Slightly lighter on hover */
-    text-decoration: underline;
-}
-
-/* Font Awesome Icons (fa) - General icons used for contact links */
-.fa, .fa-solid, .fa-brands {
-    /* Use a light gray color for the icons */
-    color: #c4c4c4 !important;
-}
-
-.fa:hover, .fa-solid:hover, .fa-brands:hover {
-    /* Darker gray on hover for a subtle effect */
-    color: #90caf9 !important; 
-}
-
-/* Academicons Icons (ai) - Same treatment as Font Awesome */
 .ai {
-    color: #c4c4c4 !important;
+  color: #8b8b8b;!important;
 }
 
 .ai:hover {
-    color: #90caf9 !important;
+  color: #5c5b5b;!important;
 }
